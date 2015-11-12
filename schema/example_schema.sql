@@ -30,11 +30,11 @@ VALUES
     (1, 2)
     ;
 INSERT INTO purchases (`id`, `dt`, `total_price`)
-VALUES (3, date(‘now’), 24.00)
+VALUES (3, date('now'), 24.00)
 ;
 INSERT INTO items
     (`price`, `description`, `name`, `manufacturer`)
-VALUES (28.00, ‘Master Splinter’, ‘Cooooop’, ‘Ireland’)
+VALUES (28.00, 'Master Splinter', 'Cooooop', 'Ireland')
 ;
 INSERT INTO purchased_items
     (`purchase_id`, `item_id`)
