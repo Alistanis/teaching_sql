@@ -16,8 +16,8 @@ INSERT INTO items
     (`price`, `description`, `name`, `manufacturer`)
 VALUES
      (50.00, 'Bluetooth headphones', 'Sony BT', 'Sony'),
-     (40.00, 'Human software engineer', 'Daimeng', 'China')
-     (28.00, 'Master Splinter', 'Cooooop', 'Ireland')
+     (40.00, 'Human software engineer', 'Daimeng', 'China'),
+     (28.00, 'Master Splinter', 'Cooooop', 'Ireland'),
      (200.00, 'God', 'Kyle' , 'USA')
      ;
 
