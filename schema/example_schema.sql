@@ -25,8 +25,9 @@ INSERT INTO purchases
     (`id`, `dt`, `total_price`)
 VALUES
     (1, date('now'), 90.00),
-    (3, date('now'), 24.00),
-    (5, date('now'), 37.40)
+    (2, date('now'), 28.00),
+    (3, date('now'), 200.00),
+    (4, date('now'), 68.00)
     ;
 
 INSERT INTO purchased_items
@@ -34,6 +35,8 @@ INSERT INTO purchased_items
 VALUES
     (1, 1),
     (1, 2),
-    (3,4),
-    (5,6)
+    (2, 3),
+    (3, 4),
+    (4, 2),
+    (4, 3)
     ;
