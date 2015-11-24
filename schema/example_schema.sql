@@ -11,6 +11,8 @@ CREATE TABLE purchases
 CREATE TABLE purchased_items
 	(`id` int, `purchase_id` int, `item_id` int)
 ;
+CREATE TABLE wholesale
+    (`id` int, `store` varchar(55), `total_price_distr` float, 
 
 INSERT INTO items
     (`price`, `description`, `name`, `manufacturer`)
